@@ -8,7 +8,6 @@ public class AssetNoteEditor : Editor
 {
     static string previousSelectedAssetPath = "";
     static string selectedAssetPath = "";
-    //public static string folderNote = "";
 
     static AssetNoteEditor()
     {
@@ -55,7 +54,7 @@ public class AssetNoteEditor : Editor
             {
                 base.OnInspectorGUI();
                 var isFolder = target.GetType() == typeof(DefaultAsset);
-                OnFolderInspectorGUI(isFolder);
+                AssetInspectorGUI(isFolder);
             }
             else
             {
@@ -63,7 +62,7 @@ public class AssetNoteEditor : Editor
             }
         }
 
-        private void OnFolderInspectorGUI(bool isFolder)
+        private void AssetInspectorGUI(bool isFolder)
         {
             if (isFolder)
             {
