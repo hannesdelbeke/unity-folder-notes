@@ -1,5 +1,5 @@
-- put `FolderNoteEditor.cs` editor script in editor folder
-- select a folder in the Project tab, and write a note in the inspector tab.  
+- put `AssetNoteEditor.cs` editor script in editor folder
+- select a asset or folder in the Project tab, and write a note in the inspector tab.  
 ![notes](https://github.com/user-attachments/assets/8cdacee6-b105-4f24-bd0b-7d21048ee7ba)
 
 > [!Warning]
